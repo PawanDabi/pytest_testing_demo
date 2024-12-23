@@ -8,6 +8,10 @@ class Testing_algebra:
      def test_algebra_cube(self):
           assert maths_functions.Algebra.cube(2) == 8
           assert maths_functions.Algebra.cube(4) == 64
+     
+     def test_algebra_add(self):
+          assert maths_functions.Algebra.add(146,4) == 150
+          assert maths_functions.Algebra.add(242,10) == 252
 
 class Testing_geometry:
      def test_is_triangle(self):
